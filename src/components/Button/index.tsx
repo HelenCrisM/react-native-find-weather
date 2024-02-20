@@ -1,9 +1,5 @@
-import React, { ReactNode } from 'react';
-import { TouchableOpacityProps } from 'react-native';
+import React from 'react';
 import { StyledButton } from './styles';
-
-
-
 
 const Button = ({
 	backgroundColor,
