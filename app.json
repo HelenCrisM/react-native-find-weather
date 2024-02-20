@@ -5,16 +5,6 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "plugins": [
-      [
-        "expo-font",
-        {
-          "fonts": ["./src/assets/fonts/Overpass-Bold.ttf", 
-          "./src/assets/fonts/Overpass-Regular.ttf",
-        "./src/assets/fonts/Overpass-SemiBold.ttf"]
-        }
-      ]
     ]
   }
 }
