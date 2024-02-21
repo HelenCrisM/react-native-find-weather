@@ -1,9 +1,9 @@
 import styled from 'styled-components/native';
-import { IButton } from '../../@types/button-types';
+import theme from '../../theme';
 
-export const StyledButton = styled.TouchableOpacity.attrs(() => ({
-	activeOpacity: 0.75,
-}))<IButton>`
-	background-color: ${({ backgroundColor }) => backgroundColor};
-	border-color: ${({ borderColor }) => borderColor};
+export const StyledButton = styled.TouchableOpacity`
+	background-color: ${theme.colors.dark300};
+	border-color: ${theme.colors.gray300};
+	border-radius: 18px;
+	height: 54px;
 `;
