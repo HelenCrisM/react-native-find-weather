@@ -4,7 +4,8 @@ import { colors } from '../../theme/colors';
 export const StyledView = styled.SafeAreaView`
 	flex: 1;
 	justify-content: center;
-  align-items: center;
-  padding: 11%;
+	align-items: center;
+	padding: 11%;
 	background-color: ${colors.dark300};
+	gap: 16px;
 `;
