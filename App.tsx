@@ -7,7 +7,8 @@ import {
 	Overpass_600SemiBold,
 	Overpass_700Bold,
 } from '@expo-google-fonts/overpass';
-import Welcome from './src/screens/Welcome';
+import Routes from './src/routes/routes';
+import theme from './src/theme';
 // import Welcome from './src/screens/Welcome';
 
 export default function App() {
@@ -24,9 +25,9 @@ export default function App() {
 
 	return (
 		<>
-			<StatusBar style="light" />
+			<StatusBar style="light" backgroundColor={theme.colors.dark} />
 
-			<Welcome />
+			<Routes />
 		</>
 	);
 }
