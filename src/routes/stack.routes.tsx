@@ -3,9 +3,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Welcome from '../screens/Welcome';
 import Home from '../screens/Home';
-import { IStackRoutes } from '../@types/stackRoutes';
-
-
+import { IStackRoutes } from '../@types/stack.routes';
 
 const { Navigator, Screen } = createNativeStackNavigator<IStackRoutes>();
 
