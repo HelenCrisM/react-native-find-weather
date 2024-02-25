@@ -1,8 +1,8 @@
 import React from 'react';
-import { StyledText } from './styles';
+import  Styled from './styles';
 
 const Text = ({ children }: any): JSX.Element => {
-	return <StyledText>{children}</StyledText>;
+	return <Styled.Text>{children}</Styled.Text>;
 };
 
 export default Text;

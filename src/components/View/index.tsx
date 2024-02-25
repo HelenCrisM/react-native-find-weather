@@ -1,8 +1,8 @@
 import React from 'react';
-import { StyledView } from './styles';
+import Styled from './styles';
 
 const View = ({ children }: any): JSX.Element => {
-	return <StyledView>{children}</StyledView>;
+	return <Styled.View>{children}</Styled.View>;
 };
 
 export default View;

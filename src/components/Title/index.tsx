@@ -1,8 +1,8 @@
 import React from 'react';
-import { StyledTitle } from './styles';
+import  Styled from './styles';
 
 const Title = ({ children }: any): JSX.Element => {
-	return <StyledTitle>{children}</StyledTitle>;
+	return <Styled.Title>{children}</Styled.Title>;
 };
 
 export default Title;

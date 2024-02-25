@@ -1,8 +1,8 @@
 import React from 'react';
-import { StyledButton } from './styles';
+import Styled from './styles';
 
 const Button = ({ children }: any): JSX.Element => {
-	return <StyledButton>{children}</StyledButton>;
+	return <Styled.Button>{children}</Styled.Button>;
 };
 
 

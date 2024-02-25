@@ -1,8 +1,8 @@
 import React from 'react';
-import { StyledDescription } from './styles';
+import Styled from './styles';
 
 const Description = ({ children }: any): JSX.Element => {
-	return <StyledDescription>{children}</StyledDescription>;
+	return <Styled.Description>{children}</Styled.Description>;
 };
 
 export default Description;
