@@ -1,11 +1,11 @@
 import styled from 'styled-components/native';
-import theme from '../../theme';
+import { IText } from '../../@types/text';
 
-const Text = styled.Text`
-	font-family: ${theme.fontFamily.OverpassRegular};
-	font-size: ${theme.fontSize.md22};
-	color: ${theme.colors.white};
-	text-align: center;
+const Text = styled.Text<IText>`
+	font-family: ${({ fontFamily }) => fontFamily};
+	font-size: ${({ fontSize }) => fontSize}px;
+	color: ${({ color }) => color};
+	text-align: ${({ textAlign }) => textAlign && textAlign};
 `;
 
 export default { Text };

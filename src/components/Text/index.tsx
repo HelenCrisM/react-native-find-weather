@@ -1,8 +1,14 @@
 import React from 'react';
-import  Styled from './styles';
+import { TextProps } from 'react-native';
+import Styled from './styles';
+import { IText } from '../../@types/text';
 
-const Text = ({ children }: any): JSX.Element => {
-	return <Styled.Text>{children}</Styled.Text>;
+const Text = ({ children, fontSize, fontFamily, color, textAlign = 'center', ...rest }: IText): JSX.Element => {
+	return (
+		<Styled.Text fontFamily={fontFamily} fontSize={fontSize} color={color} textAlign={textAlign} {...rest}>
+			{children}
+		</Styled.Text>
+	);
 };
 
 export default Text;
