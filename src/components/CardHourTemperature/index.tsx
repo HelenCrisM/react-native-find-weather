@@ -4,7 +4,7 @@ import theme from '../../theme';
 import Text from '../Text';
 
 import Styled from './styles';
-import { ICardHourTemperatureData } from '../../@types/cardHourTemperatureData';
+import { ICardHourTemperatureData } from './interfaces';
 
 const CardHourTemperature = ({ data }: ICardHourTemperatureData): JSX.Element => {
 	return (

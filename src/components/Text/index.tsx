@@ -1,7 +1,6 @@
 import React from 'react';
-import { TextProps } from 'react-native';
 import Styled from './styles';
-import { IText } from '../../@types/text';
+import { IText } from './interface';
 
 const Text = ({ children, fontSize, fontFamily, color, textAlign = 'center', ...rest }: IText): JSX.Element => {
 	return (

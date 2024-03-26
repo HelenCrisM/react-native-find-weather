@@ -4,7 +4,7 @@ import Text from "../Text";
 
 import Styled from "./styles";
 
-import { ITemperature } from "../../@types/temperature";
+import { ITemperature } from "./interfaces";
 
 
 const Temperature = ({

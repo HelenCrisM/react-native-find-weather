@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import { IText } from '../../@types/text';
+import { IText } from './interface';
 
 const Text = styled.Text<IText>`
 	font-family: ${({ fontFamily }) => fontFamily};

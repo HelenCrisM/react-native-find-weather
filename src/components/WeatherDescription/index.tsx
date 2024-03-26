@@ -5,7 +5,8 @@ import theme from "../../theme";
 import Styled from "./styles";
 
 import Text from "../Text";
-import { IWeatherData } from "../../@types/weatherData";
+
+import { IWeatherData } from "./interfaces";
 
 const WeatherDescription = ({ data }: IWeatherData) => {
   return (
