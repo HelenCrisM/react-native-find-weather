@@ -1,7 +1,6 @@
 # FindWeather App
 
-Technologies
-This project was developed with the following technologies:
+### Technologies
 
 - React Native
 - Typescript
@@ -10,7 +9,9 @@ This project was developed with the following technologies:
 - Styled-components
 - React-navigation
 
-ℹ️ How To Use
+### How To Use
+
+```bash
 # Clone this repository
 $ git clone https://github.com/HelenCrisM/react-native-find-weather/
 
@@ -22,5 +23,6 @@ $ npm i
 
 # Run the app 
 $ npm start
+```
 
 Made by Helen Cris 👋 Get in touch!
