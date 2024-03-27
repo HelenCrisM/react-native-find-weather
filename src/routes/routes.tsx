@@ -5,7 +5,7 @@ import StackRoutes from './stack.routes';
 function Routes() {
 	return (
 		<NavigationContainer>
-			<StackRoutes />
+			<StackRoutes initialRoute={'Welcome'} />
 		</NavigationContainer>
 	);
 }
